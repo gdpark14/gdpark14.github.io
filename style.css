@@ -1,0 +1,116 @@
+    .nav {
+    font-size: 15px;
+    line-height: 1;
+    background-color: #fff;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    font-weight: 700;
+    z-index:1;
+  }
+
+  .navbar-nav{
+    position:fixed;
+    z-index:1 ;
+  }
+
+  .nav a {
+    display: block;
+    color: #7B7B7B;
+    padding: 5px 30px 5px 5px;
+  }
+  
+  a.nav-link-active {
+    color: black;
+    font-weight: 900;    
+ }
+      .banner {
+    background-color:#95C4F1;
+    margin-top: 60px;
+    text-align: center;
+    height:530px;
+
+  }
+  
+  .banner p {
+    padding: 10px 0px;
+    color: white;
+    font-weight: regular;
+    line-height: 1.3;
+    font-size: 25px;
+    width: 300;
+    height: 300;
+  }
+  #name{
+    color:black;
+    font-size: 25px;
+  }
+    .story {
+    padding: 26px;
+    margin: 20px 0;
+    text-align: center;
+    color: #4C4C4C;
+    line-height: 1.5;
+  }
+    .image{
+       padding: 50px
+    }
+    #FAVORITE{
+      color:white;
+      background-color:lightblue;
+    }
+    #FAVORITE p{
+      font-size: 25px;
+    }
+    
+
+    @FONT-FACE{
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nanum Pen Script', cursive;
+    }
+
+  .card-title, .card-text{
+    font-family: "Nanum Pen Script";
+
+  }
+
+  .card{
+    margin: auto;
+  }
+
+
+  #SNS{
+    background-color:white;
+  }
+
+.card-deck{
+  z-index:2;
+
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+.carousel-item img {
+  max-height: 500px; /* input your desired height here */
+}
+
+.card-body{
+  background-color:lightblue;
+}
+.card-footer{
+  background-color:lightblue !important;
+}
+.card-deck .card{
+  border-color:lightblue !important;
+}
+.card-img-top{
+  border-radius:30px !important;
+}
+.card{
+  background-color:lightblue !important;
+  border-radius:30px !important;
+}
